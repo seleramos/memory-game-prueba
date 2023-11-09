@@ -1,0 +1,103 @@
+.App {
+  max-width: 860px;
+  margin: 40px auto;
+}
+
+h5 {
+  margin-top: -10px;
+}
+
+p {
+  font-size: 20px;
+}
+
+button {
+  background: none;
+  border: 2px solid #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+  background-color: red;
+  border-radius: 100px;
+}
+
+button:hover {
+  background: #C5056A;
+  color: #fff;
+}
+
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;   /* 4 different columns in grid */
+  grid-gap: 20px;
+}
+
+
+
+
+.swal2-container.swal2-backdrop-show,
+.swal2-container.swal2-noanimation {
+  backdrop-filter: saturate(180%) blur(5px);
+}
+.swal2-icon.swal2-warning {
+  border-color: red !important;
+  color: red !important;
+}
+.swal2-container.swal2-center > .swal2-popup {
+  grid-column: 2;
+  grid-row: 2;
+  align-self: center;
+  justify-self: center;
+  background: #f7e7ce5a;
+  border-radius: 45px;
+}
+.swal2-title {
+  position: relative;
+  max-width: 100%;
+  margin: 0;
+  padding: 0.8em 1em 0;
+  color: black !important;
+  font-size: 1.875em;
+  font-weight: 600;
+  text-align: center;
+  text-transform: none;
+  word-wrap: break-word;
+  font-family: "Raleway";
+}
+#swal2-html-container {
+  color: black;
+  font-family: "Raleway";
+  font-weight: 600;
+}
+.swal2-styled.swal2-confirm {
+  border: 0;
+  border-radius: 45px !important;
+  background: initial;
+  background-color: #f7e7ce !important;
+  color: black !important;
+  font-size: 1em;
+  font-family: "Raleway";
+  width: 75px;
+}
+.swal2-icon.swal2-success [class^="swal2-success-circular-line"] {
+  position: absolute;
+  width: 3.75em;
+  height: 7.5em;
+  transform: rotate(45deg);
+  border-radius: 50%;
+  background-color: transparent !important;
+}
+.swal2-icon.swal2-success .swal2-success-fix {
+  position: absolute;
+  z-index: 1;
+  top: 0.5em;
+  left: 1.625em;
+  width: 0.4375em;
+  height: 5.625em;
+  transform: rotate(-45deg);
+  background-color: transparent !important;
+}
